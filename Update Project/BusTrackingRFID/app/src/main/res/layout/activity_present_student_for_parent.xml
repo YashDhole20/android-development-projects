@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8347DB6"
+    android:backgroundTint="@color/design_default_color_secondary_variant"
+    tools:context=".PresentStudentForParent">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutR"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageDriverLogo"
+            android:layout_width="152dp"
+            android:layout_height="118dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/btnViewStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Child Attendance"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/imageDriverLogo"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/material_on_surface_stroke"
+            android:drawablePadding="8dp"
+            android:textAlignment="center"
+            android:padding="16dp"
+            android:textSize="24sp"
+            />
+
+
+        <Button
+            android:id="@+id/btnlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Location"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/btnViewStudent"
+            android:backgroundTint="@color/material_on_surface_stroke"
+            android:drawablePadding="8dp"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            />
+        <Button
+            android:id="@+id/btnAboutus"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/btnlocation"
+            android:layout_height="wrap_content"
+            android:text="About us"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/material_on_surface_stroke"
+            android:drawablePadding="8dp"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            />
+        <Button
+            android:id="@+id/btnlogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnAboutus"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/material_on_surface_stroke"
+            android:drawablePadding="8dp"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            />
+
+    </RelativeLayout>>
+
+</ScrollView>

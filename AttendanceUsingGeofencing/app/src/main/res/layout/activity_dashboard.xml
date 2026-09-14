@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dashboard"
+    android:gravity="center"
+    tools:context=".DashboardActivity">
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnadmin"
+        android:background="#FADEE1"
+        android:textColor="#3F2B48"
+        android:textColorHint="#3F2B48"
+        android:textSize="20dp">
+    </Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="User Login"
+        android:layout_marginTop="15dp"
+        android:background="#FADEE1"
+        android:textColor="#3F2B48"
+        android:textColorHint="#3F2B48"
+        android:id="@+id/btnuser"
+        android:textSize="20dp">
+    </Button>
+
+</LinearLayout>

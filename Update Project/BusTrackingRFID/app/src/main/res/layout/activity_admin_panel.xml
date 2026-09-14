@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8347DB6"
+    android:orientation="horizontal"
+    android:backgroundTint="@color/design_default_color_secondary_variant"
+    tools:context=".AdminPanel">
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/imageDriverLogo"
+            android:layout_width="152dp"
+            android:layout_height="118dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+
+        <Button
+            android:id="@+id/btnAddStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="Add Student"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/material_on_surface_stroke"
+             android:drawablePadding="8dp"
+            android:textAlignment="center"
+            android:padding="16dp"
+            android:textSize="24sp"
+            />
+        <Button
+            android:id="@+id/btnViewStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Student"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/material_on_surface_stroke"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            android:padding="16dp"
+            android:textSize="24sp"
+             />
+        <Button
+            android:id="@+id/btnPresentStud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Present Student"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/material_on_surface_stroke"
+             android:drawablePadding="8dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:padding="16dp"
+            android:textSize="24sp"
+
+            />
+
+        <Button
+            android:id="@+id/btnAboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About us"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/material_on_surface_stroke"
+             android:drawablePadding="8dp"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            />
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/material_on_surface_stroke"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="5dp"
+            android:padding="16dp"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

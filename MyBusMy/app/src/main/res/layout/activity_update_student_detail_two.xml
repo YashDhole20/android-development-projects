@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#A8020004"
+    tools:context=".UpdateStudentDetailTwo">
+
+
+    <EditText
+        android:id="@+id/editUpdatetStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        android:backgroundTint="#FF0000"
+        android:hint="Enter Name" />
+    <EditText
+        android:id="@+id/editUpdateStudentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        android:backgroundTint="#FF0000"
+        android:hint="Enter Student Id" />
+
+
+    <EditText
+        android:id="@+id/editUpdateMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/purple_200"
+        android:backgroundTint="#FF0000"
+        android:layout_margin="10dp"
+        android:hint="Enter  mobile no " />
+
+
+    <EditText
+        android:id="@+id/editUpdateEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/purple_200"
+        android:backgroundTint="#FF0000"
+        android:layout_margin="10dp"
+        android:hint="Enter Email" />
+
+
+    <EditText
+        android:id="@+id/editUpdateAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/purple_200"
+        android:backgroundTint="#FF0000"
+        android:layout_margin="10dp"
+        android:hint="Enter address" />
+    <EditText
+        android:id="@+id/editUpdatePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/purple_200"
+        android:backgroundTint="#FF0000"
+        android:layout_margin="10dp"
+        android:hint="Enter password" />
+
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Save"
+        android:textAllCaps="false" />
+</LinearLayout>

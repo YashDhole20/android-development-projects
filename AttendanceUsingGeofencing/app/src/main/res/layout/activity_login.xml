@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#EEEEF9"
+        android:id="@+id/inputenrollno">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editenrollno"
+            android:hint="Enrollment Number"
+            android:textColor="#DD99FA"
+            android:textColorHint="#DD99FA"
+            android:inputType="text"
+            android:textSize="30sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#EEEEF9"
+        android:id="@+id/inputpass">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editpass"
+            android:hint="Password"
+            android:textColor="#DD99FA"
+            android:textColorHint="#DD99FA"
+            android:inputType="textPassword"
+            android:textSize="30sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#E4588B"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnlogin"
+        android:textSize="20dp">
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New User? Register Here!!"
+        android:id="@+id/txtregister"
+        android:gravity="center"
+        android:textColor="#C1C0E7"
+        android:textSize="15sp"
+        android:layout_marginTop="10sp" />
+
+</LinearLayout>

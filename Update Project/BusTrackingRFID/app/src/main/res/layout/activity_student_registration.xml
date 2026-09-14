@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD46DA4C"
+    android:scrollbars="vertical"
+    tools:context=".StudentRegisteration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="24dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputShowroom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/editStudName"
+                      android:drawablePadding="8dp"
+                    android:inputType="text"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="20dp"
+                    android:hint="Student Name"
+                    android:singleLine="true"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/red"
+                    android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:id="@+id/textShowroom"
+                        android:drawableLeft="@drawable/baseline_error_outline_24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textColor="@android:color/holo_red_light"
+                        android:visibility="gone" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputShowroomUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/editRFID"
+                      android:drawablePadding="8dp"
+                    android:inputType="text"
+                    android:hint="RF ID"
+                    android:singleLine="true"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/cardview_dark_background"
+                    android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:id="@+id/textUsername"
+                        android:drawableLeft="@drawable/baseline_error_outline_24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:textColor="@android:color/holo_red_light"
+                        android:visibility="gone" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputShowroomEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/editStudAddress"
+                      android:drawablePadding="8dp"
+                    android:inputType="text"
+                    android:hint="Address"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textColorHighlight="@color/cardview_dark_background"
+                    android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/textShowEmail"
+                android:layout_width="match_parent"
+                android:drawableLeft="@drawable/baseline_error_outline_24"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@android:color/holo_red_light"
+                android:visibility="gone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+91"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputShowroomMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editStudMobileNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="5dp"
+                            android:drawablePadding="8dp"
+                            android:hint="Student Mobile Number"
+                            android:inputType="number"
+                            android:padding="8dp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/textShowMobileNo"
+                            android:layout_width="match_parent"
+                            android:drawableLeft="@drawable/baseline_error_outline_24"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:textColor="@android:color/holo_red_light"
+                            android:visibility="gone" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="12dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+91"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputStudMobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:id="@+id/editParentMobileNo"
+                            android:drawablePadding="8dp"
+                            android:inputType="number"
+                            android:hint="Parent Mobile Number"
+                            android:padding="8dp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="5dp" />
+                        <TextView
+                            android:id="@+id/textParentMobileNo"
+                            android:layout_width="match_parent"
+                            android:drawableLeft="@drawable/baseline_error_outline_24"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:textColor="@android:color/holo_red_light"
+                            android:visibility="gone" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnShowBtnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="REGISTER"
+                    android:textSize="25sp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="@color/black"
+                    app:cornerRadius="15dp"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

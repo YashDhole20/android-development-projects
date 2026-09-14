@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Bus My App</string>
+    <string name="login">Login</string>
+    <string name="username">Username/Email</string>
+    <string name="password">Password</string>
+
+    <string-array name="choose">
+        <item>Bus</item>
+        <item>Student</item>
+    </string-array>
+</resources>

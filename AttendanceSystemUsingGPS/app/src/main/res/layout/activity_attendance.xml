@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AttendanceActivity">
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="View Attendance"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnview"
+        android:textSize="15dp">
+    </Button>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Give Attendance"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btngive"
+        android:textSize="15dp">
+    </Button>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btnprofile"
+        android:textSize="15dp">
+    </Button>
+
+
+</LinearLayout>

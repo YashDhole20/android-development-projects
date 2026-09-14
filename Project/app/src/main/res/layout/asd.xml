@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/logo"
+    tools:context=".BusNoActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.7" />
+    <Spinner
+        android:id="@+id/bno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="enter bus number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bno"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="39dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bnum"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="19dp"
+            android:background="#0CCFA8"
+            app:cornerRadius="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Bus number"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/src"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="19dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#0CCFA8"
+            android:text="Source"
+            android:layout_gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:background="#0CCFA8"
+            android:text="Destination"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tm"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:background="#0CCFA8"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Time"
+            android:layout_gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/youAt"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="19dp"
+            android:background="#F1DC20"
+            android:text=" Present Location "
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bno"
+        android:layout_alignTop="@+id/bno"
+
+        android:layout_toRightOf="@+id/bno"
+        android:text="search" />
+
+</RelativeLayout>

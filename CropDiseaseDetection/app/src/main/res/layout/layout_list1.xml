@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/displaycropname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaycropimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaycropname"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaycropdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaycropimage"
+        android:text="Loading..." />
+
+    <EditText
+        android:id="@+id/replyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaycropdes"
+        android:hint="Enter Reply..."
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/replyEditText"
+        android:layout_marginTop="8dp"
+        android:text="Submit Reply" />
+
+</RelativeLayout>

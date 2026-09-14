@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_showrooms">
+
+    <!-- Logo ImageView -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo2"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Home ImageView -->
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Vector ImageView -->
+    <ImageView
+        android:id="@+id/vectorImageView"
+        android:layout_width="0dp"
+        android:layout_height="320dp"
+        android:src="@drawable/showroom_sec"
+        app:layout_constraintTop_toBottomOf="@id/logoImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Text 1 -->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Empowering your journey"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vectorImageView" />
+
+    <!-- Text 2 -->
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Find electric vehicle showrooms \n effortlessly"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@id/text1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <!-- EditText 1 -->
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="#D9D9D9"
+        android:gravity="center"
+        android:hint="City"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- EditText 2 -->
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="#D9D9D9"
+        android:gravity="center"
+        android:hint="Taluka"
+        app:layout_constraintTop_toBottomOf="@id/EditText1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- EditText 3 -->
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="#D9D9D9"
+        android:gravity="center"
+        android:hint="District"
+        app:layout_constraintTop_toBottomOf="@id/EditText2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:text="Submit"
+        android:background="@drawable/cutom_button2"
+        app:layout_constraintTop_toBottomOf="@id/EditText3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

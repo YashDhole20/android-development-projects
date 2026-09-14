@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SmartAptitude</string>
+    <string name="company_name_placeholder">company name</string>
+    <string name="current_job_role_placeholder">current job role</string>
+    <string name="total_vacancies_placeholder">total vacancies</string>
+    <string name="salary_placeholder">salary</string>
+    <string name="job_description_placeholder">job description</string>
+
+
+</resources>

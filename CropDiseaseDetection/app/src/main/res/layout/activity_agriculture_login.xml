@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/agri_login"
+    tools:context=".agriculture_login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address / ईमेल पत्ता"
+        android:textColor="@color/white"
+        android:alpha="0.7"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/agreditemail"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password / पासवर्ड"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:alpha="0.7"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/agreditpassword"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Login / लॉगिन करा"
+        android:id="@+id/agrbtnlogin"
+        app:cornerRadius="32dp" />
+
+    <TextView
+        android:id="@+id/registerText"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:text="New account? Register here. नवीन खाते? येथे नोंदणी करा."
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:onClick="openRegistrationPage"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

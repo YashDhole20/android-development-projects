@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cropmain1"
+    tools:context=".Dashboard">
+
+    <Button
+        android:id="@+id/adminlog"
+        android:layout_width="190dp"
+        android:layout_height="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="Admin/ॲडमिन"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        />
+
+    <Button
+        android:id="@+id/farmer"
+        android:layout_width="210dp"
+        android:layout_height="47dp"
+        android:background="@drawable/button"
+        android:layout_below="@+id/adminlog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Farmer/शेतकरी"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+         />
+
+    <Button
+        android:id="@+id/agr"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/farmer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Agriculture Officer/कृषी अधिकारी"
+        android:textSize="19sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button" />
+
+</RelativeLayout>
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/crop"-->
+<!--    tools:context=".Dashboard">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/adminlog"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="120dp"-->
+<!--        android:layout_marginTop="400dp"-->
+<!--        android:text="Admin"-->
+<!--        android:textSize="25dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/farmer"-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:text="Farmer"-->
+<!--        android:textSize="25dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/agr"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="120dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:text="Agriculture"-->
+<!--        android:textSize="25dp" />-->
+
+
+<!--</LinearLayout>-->

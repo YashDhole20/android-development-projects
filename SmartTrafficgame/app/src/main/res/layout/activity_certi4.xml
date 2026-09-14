@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/certificateImage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/nameTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name Placeholder"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="150dp"/>
+
+    <TextView
+        android:id="@+id/gradeTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTextView3"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:text="Pass Smart Traffic Exam 4"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/dateTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textSize="10sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="142dp"
+        android:layout_marginStart="110dp"/>
+
+    <ImageView
+        android:id="@+id/signTextView3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="220dp"
+        android:src="@drawable/sign"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/next3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="18sp"
+        android:layout_below="@id/dateTextView3"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="138dp"/>
+
+</RelativeLayout>

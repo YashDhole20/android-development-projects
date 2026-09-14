@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".manatwork">
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="160dp"
+            android:src="@drawable/manatwork" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:text="  Diamond-shaped orange sign with a black symbol of a worker and the words Men at Work. Alerts drivers to construction or maintenance activities ahead, prompting them to slow down, be cautious, and follow any specified detours for the safety of road workers and themselves."/>
+
+</LinearLayout>

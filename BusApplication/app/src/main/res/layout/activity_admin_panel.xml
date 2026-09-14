@@ -1,0 +1,107 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_driver"
+    tools:context=".AdminPanel">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageDriverLogo"
+            android:layout_width="152dp"
+            android:layout_height="118dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/school_bus" />
+
+        <Button
+            android:id="@+id/btnBusDetails"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="?selectableItemBackground"
+            android:layout_below="@id/imageDriverLogo"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+             android:textAlignment="textStart"
+            android:text="Bus Details" />
+
+        <Button
+            android:id="@+id/btnStudDetails"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="?selectableItemBackground"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_below="@id/btnBusDetails"
+            android:text="Student Details" />
+
+
+        <Button
+            android:id="@+id/btnUpdateStud"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+
+            android:background="?selectableItemBackground"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="textStart"
+            android:layout_below="@id/btnStudDetails"
+            android:text="Update Student" />
+
+        <Button
+            android:id="@+id/btnViewAllBus"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="?selectableItemBackground"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="textStart"
+            android:layout_below="@id/btnUpdateStud"
+            android:text="View Bus Location" />
+
+        <Button
+            android:id="@+id/btnStudReport"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="?selectableItemBackground"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_below="@id/btnViewAllBus"
+            android:text="Student Report"
+             />
+
+        <Button
+            android:id="@+id/btnBusReport"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="16dp"
+            android:background="?selectableItemBackground"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAlignment="textStart"
+            android:layout_below="@id/btnStudReport"
+            android:text="Bus Report" />
+
+        <Button
+            android:id="@+id/btnAdminLogout"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:background="?selectableItemBackground"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="textStart"
+            android:layout_below="@id/btnBusReport"
+            android:text="Log Out" />
+</RelativeLayout>
+</ScrollView>

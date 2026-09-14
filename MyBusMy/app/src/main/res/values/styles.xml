@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define a style for the date text when the student is present -->
+    <style name="PresentDateTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/holo_green_dark</item> <!-- Change to your desired color -->
+        <!-- Add other text appearance attributes as needed -->
+    </style>
+
+    <!-- Define a style for the date text when the student is absent -->
+    <style name="AbsentDateTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/holo_red_dark</item> <!-- Change to your desired color -->
+        <!-- Add other text appearance attributes as needed -->
+    </style>
+</resources>

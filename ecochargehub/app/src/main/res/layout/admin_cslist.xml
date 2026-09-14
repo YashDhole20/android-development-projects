@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/displayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displayname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayid"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displayaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayname"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaycity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayaddress"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaytaluka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaycity"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaydistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaytaluka"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displayopentime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaydistrict"
+        android:text="Loading..." />
+
+    <TextView
+        android:id="@+id/displayclosetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayopentime"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaymobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayclosetime"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaypower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaymobile"
+        android:text="Loading..." />
+
+    <Button
+        android:id="@+id/approve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaypower"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="30dp"
+        android:text="Approve" />
+
+    <Button
+        android:id="@+id/disapprove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaypower"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="180dp"
+        android:text="Disapprove" />
+
+</RelativeLayout>

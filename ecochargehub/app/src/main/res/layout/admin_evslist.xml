@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/displayid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logout"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displayname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayid"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displayemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayname"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaymobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displayemail"
+        android:text="Loading..." />
+    <TextView
+        android:id="@+id/displaycity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaymobile"
+        android:text="Loading..." />
+
+    <Button
+        android:id="@+id/approve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaycity"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="30dp"
+        android:text="Approve" />
+
+    <Button
+        android:id="@+id/disapprove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/displaycity"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="180dp"
+        android:text="Disapprove" />
+
+</RelativeLayout>

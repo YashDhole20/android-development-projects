@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".trafficrules">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texthead"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:text="Traffic Rules"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/hump"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/hump" />
+
+                <ImageView
+                    android:id="@+id/Norightturn"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/asdf" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/texthump"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Hump"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textNorightturn"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:text="No Right Turn"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stepdecent"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/stepdecent" />
+
+                <ImageView
+                    android:id="@+id/stepacent"
+                    android:layout_width="220dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/stepascent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/textstepacent"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Step Ascent"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/stepdcent"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Step Decent"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/leftcurve"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/leftcurve1" />
+
+                <ImageView
+                    android:id="@+id/manatwork"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/manatwork" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textleftcurve"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Left Curve"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/textmanatwork"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Man At Work"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="ExtraText">
+
+                <ImageView
+                    android:id="@+id/dangepoursdip"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/dangerousdip" />
+                <ImageView
+                    android:id="@+id/stop"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/stop1" />
+
+
+                -
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textdangepoursdip"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Dangeours-Dip"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textstop"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Stop"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/school"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/schoolahead" />
+
+                <ImageView
+                    android:id="@+id/noparking"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/noparking" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textschool"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="School Ahead"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textnoparking"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="No Parking"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/noovertake"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/noovertaking" />
+
+                <ImageView
+                    android:id="@+id/noentry"
+                    android:layout_width="200dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/noentry1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textnoovertake"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="No-Overtake"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textnoentry"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="No Entry"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

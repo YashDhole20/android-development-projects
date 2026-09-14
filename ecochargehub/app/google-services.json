@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "559862512053",
+    "project_id": "ecochargehub-c32d6",
+    "storage_bucket": "ecochargehub-c32d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559862512053:android:5055c7415fb910b28bc1fc",
+        "android_client_info": {
+          "package_name": "com.example.ecochargehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkNoA2ZnDqxuffMOCLjEPVbbNF24wtG8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

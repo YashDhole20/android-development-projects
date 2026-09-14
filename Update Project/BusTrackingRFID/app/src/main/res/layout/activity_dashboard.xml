@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8347DB6"
+    android:backgroundTint="@color/design_default_color_secondary_variant"
+    tools:context=".Dashboard">
+    <ImageView
+        android:id="@+id/imageDriverLogo"
+        android:layout_width="152dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="30dp"
+        android:text="About Us"
+        android:textStyle="bold"
+        android:textColor="#EA0855"
+        android:textSize="34sp" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="28dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:text="The proposed work describes the design of a Bus BoardingDeboarding and Location Notifying System, capable of yielding effective services by providing the amenity to track the bus location using cutting-edge technologies like Global Positioning System (GPS) tracking and Radio Frequency Identification (RFID). The suggested system uses RFID, GPS, and GSM technologies to track pupils within a school bus. ."
+        android:textSize="8pt" />
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_weight="1"
+        android:text="Developer Name : \n\t 1.Komal Dambare \n\t 2.Yogita Gend \n\t 3.Prachi Kadam \n\t 4.Harshit Shewale "
+        android:textSize="24sp" />
+
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:text="Guide Name : Prof. B.M.Gawale"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

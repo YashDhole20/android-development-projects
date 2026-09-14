@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"
+            android:id="@+id/editname"
+            android:inputType="text"
+            android:background="@drawable/edittextlayout"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Car Name"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/editcar"
+            android:inputType="text"
+            android:background="@drawable/edittextlayout"/>
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Car Number eg: MH 15 BN 1526"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/editcarnumber"
+            android:inputType="text"
+            android:background="@drawable/edittextlayout"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile number"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/editnumber"
+            android:inputType="number"
+            android:maxLength="10"
+            android:background="@drawable/edittextlayout"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/editpass"
+            android:background="@drawable/edittextlayout"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/btnregister"
+            android:textSize="20dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+
+</ScrollView>

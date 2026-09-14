@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AttendanceUsingGeofencing</string>
+    <string name="hello_world">Hello</string>
+    <string-array name="dept">
+        <item>Select department</item>
+        <item>Comp</item>
+        <item>IT</item>
+    </string-array>
+
+    <string-array name="div">
+        <item>Select Class</item>
+        <item>FY</item>
+        <item>SY</item>
+        <item>TY</item>
+    </string-array>
+    <string name="title_activity_give_attendance">Map</string>
+
+    <string name="google_map_key">AIzaSyA-WzijndQXAL18a8Rwy0qfI92vb7yxpEQ</string>
+</resources>

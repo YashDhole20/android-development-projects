@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_stations">
+
+    <!-- Logo ImageView -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo2"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Home ImageView -->
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Vector ImageView -->
+
+    <!-- Text 1 -->
+    <ImageView
+        android:id="@+id/vectorImage"
+        android:layout_width="0dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/station_section"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoImageView" />
+
+    <TextView
+        android:id="@+id/text2.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Power up,stay connected"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vectorImage" />
+
+    <!-- Text 2 -->
+    <TextView
+        android:id="@+id/text2.2"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Locate charging stations for \n your electric vehicle."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintTop_toBottomOf="@id/text2.1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <!-- EditText 1 -->
+    <EditText
+        android:id="@+id/EditText2.1"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="#D9D9D9"
+        android:gravity="center"
+        android:hint="City"
+        app:layout_constraintTop_toBottomOf="@id/text2.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- EditText 2 -->
+    <EditText
+        android:id="@+id/EditText2.2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="#D9D9D9"
+        android:gravity="center"
+        android:hint="Taluka"
+        app:layout_constraintTop_toBottomOf="@id/EditText2.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- EditText 3 -->
+    <EditText
+        android:id="@+id/EditText2.3"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:background="#D9D9D9"
+        android:gravity="center"
+        android:hint="District"
+        app:layout_constraintTop_toBottomOf="@id/EditText2.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:text="Submit"
+        android:background="@drawable/cutom_button2"
+        app:layout_constraintTop_toBottomOf="@id/EditText2.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

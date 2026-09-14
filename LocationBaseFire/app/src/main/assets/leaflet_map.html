@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map { height: 100vh; }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script>
+    var map = L.map('map').setView([0, 0], 13); // Set initial view to center of the world
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Add marker for user's current location
+    function addMarker(lat, lng) {
+        L.marker([lat, lng]).addTo(map);
+    }
+
+    // JavaScript function to receive user's location from Android
+    function setUserLocation(lat, lng) {
+        console.log("Received user location:", lat, lng);
+        addMarker(lat, lng);
+        map.setView([lat, lng], 20);
+    }
+
+    // JavaScript function to fetch user's location from Android
+    function fetchUserLocationFromAndroid() {
+        Android.getUserLocation();
+    }
+
+    // Call function to fetch user's location from Android when the page loads
+    fetchUserLocationFromAndroid();
+</script>
+</body>
+</html>

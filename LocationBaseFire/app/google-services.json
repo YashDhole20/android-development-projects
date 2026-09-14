@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522282189680",
+    "project_id": "locationbasefire-66c4e",
+    "storage_bucket": "locationbasefire-66c4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522282189680:android:8ac02c8fa1409e536105b5",
+        "android_client_info": {
+          "package_name": "com.example.locationbasefire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJRq3n5ZI72pIhHo_krLSsoVx_icgeojk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

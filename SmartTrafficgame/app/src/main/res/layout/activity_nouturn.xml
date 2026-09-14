@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".nouturn">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:src="@drawable/nouturn" />
+    <TextView
+
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:textStyle="italic"
+        android:text="The No U-Turn traffic rule mandates that drivers refrain from making a complete reversal of direction at specific locations or intersections. This regulation is implemented to maintain a smooth and safe traffic flow, preventing disruptions and potential hazards associated with sudden turns. Adherence to the No U-Turn rule contributes to overall road safety and order."/>
+
+
+
+</LinearLayout>

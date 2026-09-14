@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp"
+    android:background="@drawable/custom_for_option"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/imageBackToPanelStudent"
+            android:layout_width="50dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/baseline_arrow_back_ios_new_24" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textStudent"
+                android:layout_width="223dp"
+                android:layout_height="56dp"
+                android:text="For Parent"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnViewBusLocation"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/my_primary"
+                android:text="View Bus Location"
+                android:textSize="20sp"
+                app:cornerRadius="20dp" />
+            <Button
+                android:id="@+id/btnChildAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/my_primary"
+                android:text="Child Attendance"
+                android:textSize="20sp"
+                app:cornerRadius="20dp" />
+            <Button
+                android:id="@+id/btnViewBusTiming"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/my_primary"
+                android:text="View Bus Timing"
+                android:textSize="20sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout >

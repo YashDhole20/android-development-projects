@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AttendanceSystemUsingGPS</string>
+
+    <string-array name="dept">
+        <item>Select department</item>
+        <item>Comp</item>
+        <item>IT</item>
+    </string-array>
+
+    <string-array name="div">
+        <item>Select Class</item>
+        <item>FY</item>
+        <item>SY</item>
+        <item>TY</item>
+    </string-array>
+</resources>

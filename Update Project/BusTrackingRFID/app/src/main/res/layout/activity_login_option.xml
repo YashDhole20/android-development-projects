@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dash"
+    tools:context=".LoginOption">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FA673AB7"
+        android:alpha="0.8">
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:padding="10dp"
+        android:backgroundTint="#A6BD0058"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnDriver"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#F5BD0058"
+        android:text="Driver"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/btnParent"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#F5BD0058"
+        android:text="Parent"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginLeft="190dp"
+        android:textSize="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

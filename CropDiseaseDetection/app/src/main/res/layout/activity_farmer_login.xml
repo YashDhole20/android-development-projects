@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/farmlogin"
+    tools:context=".farmer_login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address/ईमेल पत्ता"
+        android:textColor="@color/black"
+        android:alpha="0.7"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/editemail"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password/पासवर्ड"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:alpha="0.7"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:id="@+id/editpassword"
+        android:textStyle="bold"/>
+<!--        android:drawableEnd="@drawable/password_icon"-->
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:text="Login/लॉगिन करा"
+        android:id="@+id/btnfarmerlogin"
+        app:cornerRadius="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="New account? Register here./नवीन खाते? येथे नोंदणी करा."
+        android:clickable="true"
+        android:textColor="#FFFFFF"
+        android:id="@+id/tvRegister"/>
+
+</LinearLayout>
+
+
+

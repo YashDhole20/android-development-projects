@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_studentprofile"
+    tools:context=".DriverProfile">
+
+
+
+    <ImageView
+        android:id="@+id/imageDriverLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/school_bus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+    <TextView
+        android:id="@+id/textDriverProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Page"
+        android:textSize="24sp"
+        android:layout_below="@id/imageDriverLogo"
+        android:layout_centerHorizontal="true"
+         />
+    <TextView
+        android:id="@+id/textDriverProfileBusNumber"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textDriverProfileName"
+        android:layout_centerHorizontal="true"
+        android:text="BusNumber"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/btnDriverScanQR"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+             android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:text="scan qr" />
+
+        <Button
+            android:id="@+id/btnDriverPresentStu"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_below="@id/btnDriverScanQR"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="View Present Student" />
+
+
+        <Button
+            android:id="@+id/btnDriverLocation"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_below="@+id/btnDriverPresentStu"
+            android:text="Start Location Sharing"
+            />
+        <Button
+            android:id="@+id/btnDriverLogout"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_below="@+id/btnDriverLocation"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="0dp"
+            android:text="Log out" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
